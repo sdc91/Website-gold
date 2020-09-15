@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='{% static "newapp/css/webuygoldcopy.css" %}'>
+
+  <body>
+    <div id="first_container">
+        <div class="navbar_container">
+          <div id="logo">
+            <img src='{% static "Original on Transparent.png" %}' class= "main_heading" alt="">
+            <h3 class="phone_number">1-888-232-0327</h3>
+          </div>
+          <div class="links_phone_number">
+            <a style="text-decoration: none;" class="nav_links_home" href="">Home</a>
+            <a style="text-decoration: none;" class="nav_links" href="#heading">How It Works</a>
+            <a style="text-decoration: none;" class="nav_links" href="#get_started_button">Testimonials</a>
+            <a style="text-decoration: none;" class="nav_links_price" target="_blank" href="https://www.apmex.com/gold-price?utm_medium=adwords&utm_campaign=&utm_source=&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjil1mKfOjCVDtYwSeCxJGVPrnm1GNyCSoS9dUhI6mX71tKfaULm8c4aAlOXEALw_wcB">Price Today</a>
+          </div>
+
+        <div class="covid_container">
+          <h4><span class="covid_19">COVID-19 ALERT:</span> We are open and commited to your safety</h4>
+        </div>
+      </div>
+    </div>
+    <div id="invisible_container">
+      <h6>i</h6>
+    </div>
+  <section>
+  <div id="second_conatiner">
+      <div id="first_item">
+        <h1 id="first_heading">Sell Your <span id="gold">GOLD</span></h1>
+        <h1 id="second_heading">Get Instant <span id="cash">CASH</span></h1>
+        <p id="front_description"> Gold is near an all time high, get the max for your gold in three easy steps. Our team of experts will evaluate your gold and send you an offer with 100% satisfaction gauranteed. Simply fill out the form to get started!</p>
+      </div>
+
+      <div id="second_item_form">
+        {% block content %}
+
+        {% endblock %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="third_container">
+      <div class="description_container">
+        <div id="heading">
+          <h1 id="webuygoldusa">We Buy Gold USA</h1>
+          <h3 id='three_steps'>Three easy steps</h3>
+        </div>
+        <div id="first_description">
+          <img id="description_images" src="/static/truck.png" alt="">
+          <h1> Fill Out The Form</h1>
+          <p>Fill out the form and we'll send you a free apraisal kit</p>
+        </div>
+        <div id="second_description">
+          <img id="description_images" src="/static/mail.png" alt="">
+          <h1 class="shipping_get_paid"> Shipping</h1>
+          <p> With priority shipping recieve your appraisal kit within a few hours. Shipping is safely handled by USPS</p>
+        </div>
+        <div id="third_description">
+          <img id="description_images" src="/static/cash.png" alt="">
+          <h1 class="shipping_get_paid"> Get Paid</h1>
+          <p>Once we recieve your items, one of our experts will appraise your items and we'll send you an offer within 24 hours. If you choose to accept, the money will be sent to you by check, wire, paypal, venmo, or cashapp</p>
+        </div>
+      </div>
+      <div class="button">
+        <button id="get_started_button" onclick="window.location.href='#invisible_container'">Get Started</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="fourth_container">
+      <div id="fivestars">
+        <h1 id=stars_heading>Five Star Customer Rating</h1>
+          <span class="stars" >&starf;</span>
+          <span class="stars" >&starf;</span>
+          <span class="stars" >&starf;</span>
+          <span class="stars" >&starf;</span>
+          <span class="stars" >&starf;</span>
+      </div>
+      <div id="first_review">
+        <div class="stars_container">
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+        </div>
+        <h1 class="name">Jack from Miami, FL</h1>
+        <p class="review_paragraph">Definitely satisfied, I sent in some old, beat up gold jewelery that had been lying around my house for years. I was not expecting to be offered much for it, but the offer was great, far exceeding my expectations. Highly recommend!</p>
+      </div>
+      <div id="second_review">
+        <div class="stars_container">
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+        </div>
+        <h1 class="name">Maria from Great Neck, NY</h1>
+        <p class="review_paragraph">Amazing customer service. I really felt like I was treated like family. Customer service was patient, responsive, and quick. Highly recommend</p>
+      </div>
+      <div id="third_review">
+        <div class="stars_container">
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+          <span class="small_stars" >&starf;</span>
+        </div>
+
+        <h1 class="name">Mark from Newark, NJ</h1>
+        <p class="review_paragraph">I was initially worried about sending my gold and so I called customer service. They were nice and ensured me that it was safely cared for and shipped by USPS. I was also relieved to see the appraisal kit was designed to ensure the maximum safety for my items.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="our_story">
+      <h1 class="goal">Looking to trade your gold in for cash? Get the max now! </h1>
+      <hr>
+      <p class="story">Our goal is to provide you with an excellent experience. As a family owned business we truly believe in treating our customers like family. We pride ourselves in our commitment to customer service and ensure the most cash for our customers with a 100% satisfaction guarantee. </p>
+      <hr>
+    </div>
+  </section>
+  <section>
+    <div id="last_container">
+      <div id="social_media_pics">
+        <img src="static/icon-facebook.svg" alt="">
+        <img src="static/icon-instagram.svg" alt="">
+        <img src="static/icon-twitter.svg" alt="">
+      </div>
+      <div id="nav_bar_section">
+        <a style="text-decoration: none;" href="">Home</a>
+        <a style="text-decoration: none;" href="">Get Started!</a>
+        <a style="text-decoration: none;" target="_blank" href="https://www.apmex.com/gold-price?utm_medium=adwords&utm_campaign=&utm_source=&gclid=Cj0KCQjwy8f6BRC7ARIsAPIXOjil1mKfOjCVDtYwSeCxJGVPrnm1GNyCSoS9dUhI6mX71tKfaULm8c4aAlOXEALw_wcB">Price Today</a>
+      </div>
+      <div id="logo_container">
+        <img id="main_heading2" src="/static/White on Transparent.png" alt="">
+        <!-- <p>Email us at customerservice@webuygoldusa.com</p> -->
+        <p>All rights reserved</p>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>

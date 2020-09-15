@@ -1,0 +1,39 @@
+{% extends 'root_template.html' %}
+
+{% block content %}
+
+<form method='post' action="">
+  <h3 id="request_a_kit" for=""> REQUEST A KIT</h3>
+  <div class="first_last_name">
+
+    {{form.first_name}}
+    {{form.last_name}}
+  </div>
+  <p></p>
+  <div class="first_last_name">
+    {{form.phone_number}}
+    {{form.email}}
+  </div>
+  <p></p>
+  <div class="first_last_name">
+    {{form.adress}}
+    {{form.apt}}
+  </div>
+  <p></p>
+  <div class="first_last_name">
+    {{form.country}}
+    {{form.state}}
+  </div>
+  <p></p>
+  <div class="first_last_name">
+    {{form.city}}
+    {{form.zip}}
+  </div>
+  <p></p>
+  <div class="submit_form_bottom">
+  <input class= "" type="submit" value="Submit">
+  </div>
+  {% csrf_token %}
+</form>
+
+{% endblock %}
