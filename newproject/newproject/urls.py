@@ -18,7 +18,7 @@ from django.urls import path
 from newapp.views import home_view, thank_you_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('adm_sdc91/', admin.site.urls),
     path('', home_view, name='form'),
     # path('thanks', thank_you_view, name="thanks" ),
 ]
