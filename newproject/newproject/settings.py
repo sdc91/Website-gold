@@ -24,9 +24,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'n9oyg1nq#nzci%ja(i$yo3-xkcj94knvt6%vhrxhm!1jf2*aeh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.webuygoldusa.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['www.webuygoldusa.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
